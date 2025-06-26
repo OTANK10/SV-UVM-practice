@@ -17,9 +17,9 @@ module testbench();
   end
  
   initial begin
-    reset = 1b'1;
+    reset = 1'b1;
     #30;
-    reset = 1b'0;
+    reset = 1'b0;
   end
   
   initial begin
